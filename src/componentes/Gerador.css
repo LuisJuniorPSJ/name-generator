@@ -1,0 +1,24 @@
+button {
+  padding: 1rem;
+  border-radius: 0.3rem;
+  border: solid 3px rgb(255, 255, 255);
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: solid 3px rgb(0, 0, 0);
+}
+
+p {
+  font-size: 2rem;
+  color: rgb(255, 0, 0);
+  border: 3px solid black;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+}
